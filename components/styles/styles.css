@@ -1,0 +1,32 @@
+@import url("header.css");
+@import url("index.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: var(--font-padrao);
+    background-color: var(--grey11);
+}
+
+.poppins-regular {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+:root{
+   --font-padrao: "poppins-regular", sans-serif;
+   
+
+/*cores*/
+    --DarkGray:#A9A9A9	;
+    --grey11:#1C1C1c;
+    --DimGray: #696969;
+    --grey31: #4F4F4F;
+    --cinza-linear: linear-gradient(135deg,#1C1C1C 20%, #696969 200%);
+    --gradient-text: linear-gradient(89.83deg, #696969	 0.11%, #C0C0C0 58.65%);
+    --gradient-contato: linear-gradient(89.83deg, #696969	 20%, #C0C0C0 200%);
+
+/*fontes*/
+    --var-web: 25px;
+    --var-titulo:35px
+}
